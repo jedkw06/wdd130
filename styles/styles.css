@@ -5,7 +5,7 @@
 }
 
 nav {
-    background-color: #F3F4F6;
+    background-color: lightgray;
     color: #1E3A8A;
     padding: 10px;
 }
@@ -65,6 +65,6 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
-    background-color: #F3F4F6;
+    background-color: lightgray;
     color: #1E3A8A;
 }
