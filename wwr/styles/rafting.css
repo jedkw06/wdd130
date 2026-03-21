@@ -1,6 +1,5 @@
 :root {
     --primary-color: darkblue;
-    --secondary-color: #2a9d8f;
     --accent-color: #e76f51;
     --accent1-color: #000;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -58,7 +57,7 @@ a img {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -69,10 +68,14 @@ h1 {
     color: white;
 }
 
-.hero article p {
+.hero article {
     background-color: #e76f51;
     width: 100%;
     color: white;
+    position: absolute;
+    bottom: -30px;
+    left: 1px;
+    padding: 1px;
 }
 
 .hero article img {
