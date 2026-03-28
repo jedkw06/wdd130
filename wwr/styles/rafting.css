@@ -113,10 +113,9 @@ article {
     width: 98%;
     bottom: -30px;
     left: 1px;
-    padding: 1px;
+    padding: 15px;
     background-color: var(--accent-color);
     color: white;
-    padding: 15px;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -132,6 +131,7 @@ article {
     height: 80px;
     object-fit: cover;
     border-radius: 6px;
+    float: right;
 }
 
 /* History section*/
