@@ -1,0 +1,25 @@
+table {
+    width: 750px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+th {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
