@@ -84,56 +84,6 @@ article {
 
 /* hero section*/
 
-.hero {
-    position: relative;
-    max-width: 1000px;
-    margin: 0px;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    display: block;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    text-align: center;
-    opacity: 0.9;
-    background-color: var(--accent-color);
-    color: white;
-    padding: 10px 20px;
-}
-
-.hero article {
-    position: absolute;
-    width: 98%;
-    bottom: -30px;
-    left: 1px;
-    padding: 15px;
-    background-color: var(--accent-color);
-    color: white;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.hero article p {
-    flex: 1;
-    margin: 0;
-}
-
-.hero article img {
-    width: 120px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 6px;
-    float: right;
-}
-
 /* History section*/
 
 .history {
