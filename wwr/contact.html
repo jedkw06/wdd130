@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="White Water Rafting Adventures - Contact us Now.">
     <meta name="author" content="Jed van Eeden">
-    <title>Contact Us - White Water Rafting Adventures</title>
-    <link rel="stylesheet" href="styles/contact.css">
+    <title>Contact Us Now - White Water Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
@@ -26,54 +26,69 @@
 
 
     <main>
-        <h1>White Water Rafting Company</h1>
-        <h2>123 Main River Street</h2>
-        <h2>Niagara Falls, New York</h2>
-        <h2>+1 999 999 9999</h2>
-        <h2>info@whitewater.com</h2>
+        <div class="contact">
+            <h1>White Water Rafting Company</h1>
+            <p>123 Main River Street</p>
+            <p>Niagara Falls, New York</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
+        </div>
 
-        <form>
-            <fieldset>
-                <label for="fullname">Full Name</label>
-                <input type="text" id="fullname" name="fullname" required>
+        <div class="contact-container">
+            <form>
+                <fieldset>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
 
-                <input type="radio" id="html" name="general_inquiry" value="HTML">
-                <label for="html">General Inquiry</label><br>
-                <input type="radio" id="html" name="reservation_question" value="HTML">
-                <label for="html">Reservation Question</label>
-                <input type="radio" id="html" name="website_suggestion" value="HTML">
-                <label for="html">Website Suggestion</label>
+                    <input type="radio" id="inquiry" name="options" value="inquiry">
+                    <label for="inquiry">General Inquiry</label><br>
+                    <input type="radio" id="reservation" name="options" value="reservation">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="suggestion" name="options" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
 
-                <label for="feedback">Message</label>
-                <textarea id="feedback" name="feedback" rows="4" placeholder="Type Here"></textarea>
+                    <label for="feedback">Message</label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                      placeholder="Type Here"></textarea>
 
-                <label><input type="checkbox" id="checkbox" name="checkbox">Please Subscribe me to
-                    the monthly newsletter</label>
+                    <label><input type="checkbox" id="checkbox" name="checkbox">Please Subscribe me
+                        to
+                        the monthly newsletter</label>
 
-                <button type="submit">Submit poll</button>
-            </fieldset>
-        </form>
+                    <button type="submit">Get in Touch!</button>
+                </fieldset>
+            </form>
+
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d66002.88944350611!2d-78.96886219142765!3d43.02158336291254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1775335343698!5m2!1sen!2sza"
+                  width="500" height="250" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
 
         <section class="serve">
             <h2>We Are Here To Serve You!</h2>
-            <figure><img src="images/helmet.jpg" alt="rafting equipment on raft">
-                <figcaption>Rafting Equipment</figcaption>
-            </figure>
-            <figure><img src="images/twoboats.jpg" alt="two rafts on the shore">
-                <figcaption>Two rafts on shore</figcaption>
-            </figure>
-            <figure><img src="images/splashing.jpg" alt="rafters braving the rough rapids">
-                <figcaption>Rafters braving the rough rapids</figcaption>
-            </figure>
-            <figure><img src="images/wide.jpg" alt="wideshot of the river and mountains">
-                <figcaption>Wide shot of the river and scenery</figcaption>
-            </figure>
-            <figure><img src="images/rapids.jpg" alt="rafters rowing down the rapids">
-                <figcaption>Rafters going down rapids</figcaption>
-            </figure>
+
+            <div class="employees">
+
+
+                <figure><img src="images/employee1.jpg" alt="happy emloyee nr1">
+                    <figcaption>Our head of staff</figcaption>
+                </figure>
+                <figure><img src="images/employee2.jpg" alt="happy employee nr2">
+                    <figcaption>Our head of Social Media</figcaption>
+                </figure>
+                <figure><img src="images/employee3.jpg" alt="happy employee nr3">
+                    <figcaption>Our head of safety and security</figcaption>
+                </figure>
+
+
+            </div>
         </section>
     </main>
 

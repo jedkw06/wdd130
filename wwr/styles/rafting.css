@@ -134,6 +134,19 @@ article {
     float: right;
 }
 
+/* Contact info */
+
+.contact h1 {
+    text-align: center;
+    color: navy;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    text-align: center;
+    margin: 5px 0;
+}
+
 /* History section*/
 
 .history {
@@ -199,7 +212,134 @@ article {
     border-radius: 6px;
 }
 
-/* Footer */
+/* Form */
+
+form {
+    width: 750px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+    align-items: flex-start;
+}
+
+.contact-container form {
+    flex: 1;
+}
+
+.map {
+    flex: 1;
+}
+
+.map iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    background: #ddd;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+    margin-top: 8px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+label input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #999;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button.hover {
+    background: darkgreen;
+}
+
+/* Serve Section */
+
+.serve {
+    text-align: center;
+    padding: 30px;
+    background-color: #e6e6e6
+}
+
+.serve h2 {
+    margin-bottom: 20px;
+}
+
+.serve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serve figure {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.serve img {
+    width: 150px;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+.serve figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    border: 1px solid black;
+    background-color: lightgrey;
+    color: black;
+    padding: 1px;
+}
+
+/* footer */
 
 footer {
     padding: 15px;
