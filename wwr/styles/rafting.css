@@ -306,17 +306,14 @@ button.hover {
 .serve {
     text-align: center;
     padding: 30px;
-    background-color: #e6e6e6
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 .serve h2 {
     margin-bottom: 20px;
-}
-
-.serve {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .serve figure {
